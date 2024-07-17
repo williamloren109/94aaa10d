@@ -1,0 +1,61 @@
+.activity-feed {
+  padding: 10px;
+}
+
+.activity-feed .call-list {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.activity-feed h2 {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.call-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.date-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.date-divider::before,
+.date-divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px dashed #e0e0e0;
+}
+
+.date-divider::before {
+  margin-right: 10px;
+}
+
+.date-divider::after {
+  margin-left: 10px;
+}
+.archive-all-btn {
+  background-color: transparent;
+  border: none;
+  color: gray;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.archive-all-btn:hover {
+  background-color: rgba(0, 122, 255, 0.1);
+}
+
+.archive-all-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 122, 255, 0.3);
+}

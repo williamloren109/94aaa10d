@@ -1,0 +1,83 @@
+.call-details-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.call-details-modal {
+  position: relative;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #8e8e93;
+}
+
+.call-icon.large {
+  font-size: 48px;
+  color: #007aff;
+  margin-bottom: 20px;
+}
+
+.call-icon.large.missed {
+  color: #ff3b30;
+}
+
+
+.call-type {
+  font-size: 18px;
+  color: #8e8e93;
+  margin-bottom: 20px;
+}
+
+.call-info p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.archive-toggle-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #007aff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.archive-toggle-btn:hover {
+  background-color: #0056b3;
+}
+
+.archive-toggle-btn svg {
+  margin-right: 10px;
+}
+
+.call-info span {
+  color: #737373;
+}

@@ -1,0 +1,64 @@
+.call-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  display: flex;
+  border-bottom: 1px dashed #e0e0e0;
+}
+.call-item:last-child {
+  border-bottom: none;
+}
+.call-icon {
+  width: 40px;
+  height: 40px;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.call-icon.missed {
+  color: #ff3b30;
+}
+
+.call-info {
+  flex: 1;
+}
+
+.call-from {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.call-details {
+  flex: 0 0 60%;
+  padding: 0 2%;
+  overflow: hidden;
+}
+
+.call-to {
+  color: gray;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.call-time {
+  font-size: 13px;
+  color: #8e8e93;
+  margin: 0;
+  margin-left: auto;
+  min-width: 65px;
+}
+
+.call-action {
+  background-color: #007aff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  display: flex;
+}
